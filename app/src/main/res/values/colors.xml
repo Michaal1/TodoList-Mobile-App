@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#A567FD</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#ff7575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="divider2">#ddd</color>
+
+    <color name="background">#fff</color>
+    <color name="bottomsheetBg">#fff</color>
+
+
+
+    <color name="dark_blue">#0C1C77</color>
+    <color name="text_white">#222</color>
+    <!--<color name="button"></color>-->
+    <color name="low">#5090F8</color>
+    <color name="medium">#F3933F</color>
+    <color name="high">#951524</color>
+
+    <color name="text_black">#333333</color>
+    <color name="border">#999</color>
+    <color name="done">#aaa</color>
+
+    <color name="theme_blue">#166CDE</color>
+    <color name="bg_dark">#191919</color>
+    <color name="bg_white_task">#efefef</color>
+    <color name="bg_white">#222</color>
+    <color name="text_done">#aeaeae</color>
+
+    <color name="School">#922431</color>
+    <color name="Productivity">#342A91</color>
+    <color name="Freetime">#75C96E</color>
+    <color name="Workout">#CD4CC6</color>
+    <color name="Sleep">#5986F1</color>
+    <color name="Food">#DA845E</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#E91E63</color>
+    <color name="purple_700">#E91E63</color>
+    <color name="teal_200">#E91E63</color>
+    <color name="teal_700">#E91E63</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#222</color>
+</resources>

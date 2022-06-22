@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_bg"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:textColor="@color/text_black"
+                android:text="Add new goal"
+                android:textSize="30dp" />
+            <EditText
+                android:id="@+id/etTittle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text_black"
+                android:hint="Task tittle"/>
+            <EditText
+                android:id="@+id/etTask"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text_black"
+                android:hint="Task description"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is your goal about?"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/text_black"
+                android:padding="10dp"
+                android:textSize="16dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <CheckBox
+                    android:id="@+id/cbSchool"
+                    android:text="School"
+                    android:padding="8dp"
+                    android:background="@color/School"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <CheckBox
+                    android:id="@+id/cbProductivity"
+                    android:text="Productivity"
+                    android:background="@color/Productivity"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <CheckBox
+                    android:id="@+id/cbFreetime"
+                    android:text="Duty"
+                    android:background="@color/Freetime"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <CheckBox
+                    android:id="@+id/cbWorkout"
+                    android:text="Workout"
+                    android:background="@color/Workout"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <CheckBox
+                    android:id="@+id/cbSleep"
+                    android:text="Sleep"
+                    android:background="@color/Sleep"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <CheckBox
+                    android:id="@+id/cbFood"
+                    android:text="Food"
+                    android:background="@color/Food"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/text_black"
+                android:layout_marginBottom="20dp"
+                android:text="ADD"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

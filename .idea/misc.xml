@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_action_add_routine.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_action_add_routine_active.xml" value="0.2390625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_action_delete.xml" value="0.2390625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_action_delete2.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_action_delete3.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_action_future.xml" value="0.2390625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_action_home.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_action_settings.xml" value="0.240625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_checkbox_sleep.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable-anydpi/ic_checkbox_sleep_checked.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/bg_high.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/bg_low.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/bg_medium.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/bg_normal.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/bottom_sheet_bg.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/button.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/button_sheet_bg.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/button_transparent.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/checkbox_sleep.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/cover_friday.xml" value="0.2359375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/cover_monday.xml" value="0.2359375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/cover_saturday.xml" value="0.2359375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/cover_sunday.xml" value="0.2359375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/cover_thursday.xml" value="0.2359375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/cover_tuesday.xml" value="0.9" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/cover_wednesday.xml" value="0.2359375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/food.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/freetime.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/goal_food.xml" value="0.2390625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/goal_freetime.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/goal_productivity.xml" value="0.2390625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/ic_button.xml" value="0.20625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/ic_button_routine.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/line_bg_done.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/line_bg_high.xml" value="0.20625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/line_bg_low.xml" value="0.20625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/line_bg_medium.xml" value="0.20625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/line_bg_normal.xml" value="0.20625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/navigation.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/none.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/productivity.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/routine.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/routine_done.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/routine_food.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/routine_freetime.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/routine_productivity.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/routine_sleep.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/routine_workout.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/school.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/sleep.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/task.xml" value="0.2234375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/task_dark.xml" value="0.2046875" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/task_done.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/task_green.xml" value="0.2125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/task_orange.xml" value="0.2125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/task_red.xml" value="0.2125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/drawable/workout.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/activity_2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/activity_3.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/activity_home.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/bottom_sheet.xml" value="0.2554347826086957" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/bottom_sheet_add_goal.xml" value="0.20742753623188406" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/bottom_sheet_add_routine.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/bottom_sheet_add_small.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/bottom_sheet_choose.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/bottom_sheet_update.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/bottom_sheet_update_rutine.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/bottom_sheet_update_small.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/day.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/goal.xml" value="0.20742753623188406" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/routine_and_small_tasks.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/routine_task_modifi.xml" value="0.2" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/settings_activity.xml" value="0.16717325227963525" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/tasks.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/layout/tasks_tomorrow.xml" value="0.1828125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/mipmap-anydpi-v26/ic_app.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/mipmap-anydpi-v26/ic_app_iccoon.xml" value="0.2390625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/mipmap-anydpi-v26/ic_app_iccoon_round.xml" value="0.2390625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/mipmap-anydpi-v26/ic_app_round.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2390625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2390625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ToDoList3/app/src/main/res/xml/root_preferences.xml" value="0.24365942028985507" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

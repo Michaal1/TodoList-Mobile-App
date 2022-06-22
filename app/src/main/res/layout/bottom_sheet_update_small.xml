@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheetUpdateSmall"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_bg"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:textColor="@color/text_black"
+                android:text="Update Small task"
+                android:textSize="30dp" />
+            <EditText
+                android:id="@+id/etTittleSmall"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text_black"
+                android:hint="Task tittle"/>
+
+            <TextView
+                android:id="@+id/tvPickTimeSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/text_black"
+                android:padding="10dp"
+                android:text="Pick time"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/text_black"
+                android:padding="10dp"
+                android:text="Select type:"
+                android:textSize="16dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/theme_blue"
+                    android:backgroundTint="@color/theme_blue"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <CheckBox
+                    android:id="@+id/cbSchool"
+                    android:text="School"
+                    android:padding="8dp"
+                    android:background="@color/School"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <CheckBox
+                    android:id="@+id/cbProductivity"
+                    android:text="Productivity"
+                    android:background="@color/Productivity"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <CheckBox
+                    android:id="@+id/cbFreetime"
+                    android:text="Duty"
+                    android:background="@color/Freetime"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <CheckBox
+                    android:id="@+id/cbWorkout"
+                    android:text="Workout"
+                    android:background="@color/Workout"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <CheckBox
+                    android:id="@+id/cbSleep"
+                    android:text="Sleep"
+                    android:background="@color/Sleep"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <CheckBox
+                    android:id="@+id/cbFood"
+                    android:text="Food"
+                    android:background="@color/Food"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/text_black"
+                android:padding="10dp"
+                android:text="Choose days:"
+                android:textSize="16dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/high"
+                    android:backgroundTint="@color/high"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <CheckBox
+                    android:id="@+id/cbToday"
+                    android:text="Today"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <CheckBox
+                    android:id="@+id/cbTomorrow"
+                    android:text="Tomorrow"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btUpdateSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/text_black"
+                android:layout_marginBottom="20dp"
+                android:text="UPDATE"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:backgroundTint="@color/cardview_light_background"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:orientation="vertical"
+
+        android:outlineSpotShadowColor="#666"
+        android:elevation="5dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="My Routines"
+            android:textColor="#FFF" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/accent"
+    />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:textSize="20dp"
+    android:text="You can setup and modifi yur routine here"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="575dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:padding="5dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvMonday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/text_white"
+                    android:textFontWeight="900"
+                    android:text="Monday:"
+                    android:background="@drawable/cover_monday"
+
+                    android:textSize="23dp"/>
+                <!--<LinearLayout
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_monday"/>
+                <LinearLayout
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_monday"/>
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_monday"/>-->
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvNoneMonday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="None task for today"
+                android:textSize="18dp"
+                android:layout_margin="50dp"
+                android:visibility="gone"
+                android:gravity="center_horizontal"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rwMonday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:minHeight="0dp"
+                android:textColor="@color/text_black" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvTuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/text_white"
+                    android:textFontWeight="900"
+                    android:text="Tuesday:"
+                    android:background="@drawable/cover_tuesday"
+
+                    android:textSize="23dp"/>
+                <!--<LinearLayout
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_tuesday"/>
+                <LinearLayout
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_tuesday"/>
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_tuesday"/>-->
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvNoneTuesday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="None task for today"
+                android:textSize="18dp"
+                android:layout_margin="50dp"
+                android:visibility="gone"
+                android:gravity="center_horizontal"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rwTuesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:minHeight="0dp"
+                android:textColor="@color/text_black" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvWednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/text_white"
+                    android:textFontWeight="900"
+                    android:text="Wednesday:"
+                    android:background="@drawable/cover_wednesday"
+
+                    android:textSize="23dp"/>
+                <!--<LinearLayout
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_wednesday"/>
+                <LinearLayout
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_wednesday"/>
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_wednesday"/>-->
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvNoneWednesday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="None task for today"
+                android:textSize="18dp"
+                android:layout_margin="50dp"
+                android:visibility="gone"
+                android:gravity="center_horizontal"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rwWednesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:minHeight="0dp"
+                android:textColor="@color/text_black" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvThursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/text_white"
+                    android:textFontWeight="900"
+                    android:text="Thursday:"
+                    android:background="@drawable/cover_thursday"
+
+                    android:textSize="23dp"/>
+                <!--<LinearLayout
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_thursday"/>
+                <LinearLayout
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_thursday"/>
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_thursday"/>-->
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvNoneThursday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="None task for today"
+                android:textSize="18dp"
+                android:layout_margin="50dp"
+                android:visibility="gone"
+                android:gravity="center_horizontal"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rwThursday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:minHeight="0dp"
+                android:textColor="@color/text_black" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvFriday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/text_white"
+                    android:textFontWeight="900"
+                    android:text="Friday:"
+                    android:background="@drawable/cover_friday"
+
+                    android:textSize="23dp"/>
+                <!--<LinearLayout
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_friday"/>
+                <LinearLayout
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_friday"/>
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_friday"/>-->
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvNoneFriday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="None task for today"
+                android:textSize="18dp"
+                android:layout_margin="50dp"
+                android:visibility="gone"
+                android:gravity="center_horizontal"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rwFriday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:minHeight="0dp"
+                android:textColor="@color/text_black" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvSaturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/text_white"
+                    android:textFontWeight="900"
+                    android:text="Saturday:"
+                    android:background="@drawable/cover_saturday"
+
+                    android:textSize="23dp"/>
+                <!--<LinearLayout
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_saturday"/>
+                <LinearLayout
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_saturday"/>
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_saturday"/>-->
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvNoneSaturday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="None task for today"
+                android:textSize="18dp"
+                android:layout_margin="50dp"
+                android:visibility="gone"
+                android:gravity="center_horizontal"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rwSaturday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:minHeight="0dp"
+                android:textColor="@color/text_black" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvSunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/text_white"
+                    android:textFontWeight="900"
+                    android:text="Sunday:"
+                    android:background="@drawable/cover_sunday"
+
+                    android:textSize="23dp"/>
+                <!--<LinearLayout
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_sunday"/>
+                <LinearLayout
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_sunday"/>
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/cover_sunday"/>-->
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvNoneSunday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="None task for today"
+                android:textSize="18dp"
+                android:layout_margin="50dp"
+                android:visibility="gone"
+                android:gravity="center_horizontal"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rwSunday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:minHeight="0dp"
+                android:textColor="@color/text_black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="70dp"
+            android:background="@drawable/navigation"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/button_transparent"
+                android:src="@drawable/ic_action_home"
+                android:textColor="@color/text_white" />
+
+            <ImageButton
+                android:id="@+id/btModifiRutine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_transparent"
+                android:gravity="center"
+                android:src="@drawable/ic_action_add_routine_active"
+                android:textColor="@color/text_white" />
+            <ImageButton
+                android:id="@+id/btAdd"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:src="@drawable/ic_button"
+                android:textColor="@color/text_white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btDelete"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/btGoals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_transparent"
+                android:gravity="center_horizontal"
+                android:src="@drawable/ic_action_future"
+                android:textColor="@color/text_white"/>
+            <ImageButton
+                android:id="@+id/btDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_transparent"
+                android:textColor="@color/text_white"
+                android:src="@drawable/ic_action_delete3" />
+
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="28dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="78dp"
+            android:background="@drawable/button" />-->
+    </LinearLayout>
+</LinearLayout>

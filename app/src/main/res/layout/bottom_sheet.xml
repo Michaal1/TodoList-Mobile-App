@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_bg"
+
+
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="Add new project"
+                android:textColor="@color/text_black"
+                android:textSize="30dp" />
+            <EditText
+                android:id="@+id/etTittle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text_black"
+                android:hint="Task tittle"/>
+            <EditText
+                android:id="@+id/etTask"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text_black"
+                android:hint="Task description"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How important is your task?"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/text_black"
+                android:padding="10dp"
+                android:textSize="16dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/text_black"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="High"
+                    android:padding="3dp"
+                    android:background="@color/high"
+                    android:backgroundTint="@color/high"
+                    android:textColor="@color/text_black"
+                    android:gravity="center_vertical"/>
+                <CheckBox
+                    android:id="@+id/cbHigh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/high"
+                    android:backgroundTint="@color/high"
+                    android:textColor="@color/text_black"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Medium"
+                    android:padding="3dp"
+                    android:background="@color/medium"
+                    android:textColor="@color/text_black"
+                    android:backgroundTint="@color/medium"
+                    android:gravity="center_vertical"/>
+                <CheckBox
+                    android:id="@+id/cbMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/medium"
+                    android:textColor="@color/text_black"
+                    android:backgroundTint="@color/medium"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Low"
+                    android:padding="3dp"
+                    android:background="@color/low"
+                    android:textColor="@color/text_black"
+                    android:backgroundTint="@color/low"
+                    android:gravity="center_vertical"/>
+                <CheckBox
+                    android:id="@+id/cbLow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/low"
+                    android:backgroundTint="@color/low"
+                    android:textColor="@color/text_black"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvDayTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/text_black"
+                android:padding="10dp"
+                android:text="Pick deadline"
+                android:textSize="16dp" />
+            <!--<CalendarView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+            <TimePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>-->
+
+            <Button
+                android:id="@+id/btAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/text_black"
+                android:layout_marginBottom="20dp"
+                android:text="ADD"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

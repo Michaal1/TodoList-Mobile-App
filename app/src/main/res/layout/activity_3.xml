@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:backgroundTint="@color/cardview_light_background"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="My Future"
+        android:textColor="@color/text_black"
+        />
+    <ScrollView
+        android:id="@+id/swListOfTodos"
+        android:layout_width="match_parent"
+        android:layout_height="625dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:layoutAnimation="@anim/layout_animation">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_black"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Here are your goals... Go for them and never give up"
+                android:textSize="20dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvGoals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="70dp"
+            android:background="@drawable/navigation"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/button_transparent"
+                android:src="@drawable/ic_action_home"
+                android:textColor="@color/text_white" />
+
+            <ImageButton
+                android:id="@+id/btModifiRutine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_transparent"
+                android:gravity="center"
+                android:src="@drawable/ic_action_add_routine"
+                android:textColor="@color/text_white" />
+            <ImageButton
+                android:id="@+id/btAdd"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:src="@drawable/ic_button"
+                android:textColor="@color/text_white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btDelete"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/btGoals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_transparent"
+                android:gravity="center_horizontal"
+                android:src="@drawable/ic_action_future_active"
+                android:textColor="@color/text_white"/>
+            <ImageButton
+                android:id="@+id/btDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_transparent"
+                android:textColor="@color/text_white"
+                android:src="@drawable/ic_action_delete3" />
+
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="28dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="78dp"
+            android:background="@drawable/button" />-->
+    </LinearLayout>
+</LinearLayout>

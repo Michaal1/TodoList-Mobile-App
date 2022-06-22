@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:weightSum="1"
+    android:visibility="visible"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:outlineSpotShadowColor="@color/dark_blue"
+    android:textColor="@color/text_black">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cbDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:padding="2dp"
+            android:textColor="@color/text_black"
+            android:text="21:10"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="2dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/llLine"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/line_bg_normal"
+            android:orientation="vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tvTittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="19dp"
+            android:textColor="@color/text_black"
+            android:text="Tittle"/>
+
+    </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#a881eb"
+            android:backgroundTint="#a881eb"/>-->
+
+
+</LinearLayout>
+
+
+
+
